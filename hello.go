@@ -1,10 +1,9 @@
 package main
 
-import "fmt"
+const englishHelloPrefix = "Hello, "
 
 func Hello(name string) string {
-	output := fmt.Sprintf("Hello, %s", name)
-	return output
+	return englishHelloPrefix + name
 }
 
 func main() {
